@@ -15,10 +15,10 @@ compile 'ColorPalletteSelection:colorpickerdialog:1.0.1'
 >>> Opening Single Selection ColorPicker
 
 ColorPickerDialog dialog = ColorPickerDialog.newInstance(
-                ColorPickerDialog.SELECTION_SINGLE,
-                closestColorsList,
-                3, // Number of columns
-                ColorPickerDialog.SIZE_SMALL);
+                            ColorPickerDialog.SELECTION_SINGLE,
+                            closestColorsList,
+                            3, // Number of columns
+                            ColorPickerDialog.SIZE_SMALL);
                 
 dialog.show(getFragmentManager(), "some_tag");   
                 
