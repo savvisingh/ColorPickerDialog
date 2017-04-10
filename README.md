@@ -9,11 +9,12 @@ Maven:
 Gradle:
 compile 'ColorPalletteSelection:colorpickerdialog:1.0.1'
 
-..............................................................................................................................
-Opening Single Selection ColorPicker
-..............................................................................................................................
 
- ColorPickerDialog dialog = ColorPickerDialog.newInstance(
+
+
+>>> Opening Single Selection ColorPicker
+
+ColorPickerDialog dialog = ColorPickerDialog.newInstance(
                 ColorPickerDialog.SELECTION_SINGLE,
                 closestColorsList,
                 3, // Number of columns
@@ -21,9 +22,7 @@ Opening Single Selection ColorPicker
                 
 dialog.show(getFragmentManager(), "some_tag");   
                 
-..............................................................................................................................
-Opening Multi Selection ColorPicker
-..............................................................................................................................
+>>> Opening Multi Selection ColorPicker
 
 ColorPickerDialog dialog = ColorPickerDialog.newInstance(
                 ColorPickerDialog.SELECTION_MULTI,
@@ -34,20 +33,15 @@ ColorPickerDialog dialog = ColorPickerDialog.newInstance(
 dialog.show(getFragmentManager(), "some_tag");
 
 
-..............................................................................................................................
-Dialog OnClick Listener
-..............................................................................................................................
-
+>>> Dialog OnClick Listener
 
 dialog.setOnDialodButtonListener(new ColorPickerDialog.OnDialogButtonListener() {
             @Override
             public void onDonePressed(ArrayList<Integer> mSelectedColors) {
                 Log.d("selected colors", mSelectedColors.size() + " ");
             }
-
             @Override
             public void onDismiss() {
-
             }
         });
         
