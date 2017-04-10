@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="circle_size">50dp</dimen>
+    <dimen name="color_width">100dp</dimen>
+    <dimen name="column_width">310dp</dimen>
+
+    <dimen name="color_swatch_large">64dip</dimen>
+    <dimen name="color_swatch_small">48dip</dimen>
+    <dimen name="color_swatch_margins_large">8dip</dimen>
+    <dimen name="color_swatch_margins_small">4dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ColorPickerDialog</string>
+
+    <!-- Default title for color picker dialog [CHAR LIMIT=30] -->
+    <string name="color_picker_default_title">Select a Color</string>
+    <string name="color_picker_default_title_multiselect">Select Colors</string>
+</resources>
