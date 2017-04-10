@@ -6,10 +6,10 @@ Maven:
   <type>pom</type>
 </dependency>
 
+
+
 Gradle:
 compile 'ColorPalletteSelection:colorpickerdialog:1.0.1'
-
-
 
 
 >>> Opening Single Selection ColorPicker
