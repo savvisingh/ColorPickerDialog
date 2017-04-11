@@ -1,5 +1,5 @@
-Color Picker Dialog [[Maven Central](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser/badge.svg)](https://bintray.com/savvisingh/maven/ColorPickerDialog)
-===============
+Color Picker Dialog 
+===================
 ColorPickerDialog is an Android Library providing color picker dialog for single color or multi color selection from the ArrayList of colors provided by developer.
 
 Usage
