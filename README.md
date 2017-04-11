@@ -5,8 +5,8 @@ ColorPickerDialog is an Android Library providing color picker dialog for single
 
 Screenshots
 -----------
-![device-2017-04-12-021604.png]
-![device-2017-04-12-021708.png]
+![Screen Shot 1](device-2017-04-12-021604.png)
+![Screen Shot 2](device-2017-04-12-021708.png)
 
 Usage
 -----
