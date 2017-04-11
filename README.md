@@ -2,6 +2,12 @@ Color Picker Dialog
 ===================
 ColorPickerDialog is an Android Library providing color picker dialog for single color or multi color selection from the ArrayList of colors provided by developer.
 
+
+Screenshots
+-----------
+![device-2017-04-12-021604.png]
+![device-2017-04-12-021708.png]
+
 Usage
 -----
 * 1. Opening Single Selection ColorPicker
