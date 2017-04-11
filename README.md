@@ -1,25 +1,12 @@
-Color Picker Dialog [[Maven Central]](https://bintray.com/savvisingh/maven/ColorPickerDialog)
+Color Picker Dialog [[Maven Central](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser/badge.svg)](https://bintray.com/savvisingh/maven/ColorPickerDialog)
 ===============
 ColorPickerDialog is an Android Library providing color picker dialog for single color or multi color selection from the ArrayList of colors provided by developer.
 
-Maven:
+Usage
 -----
-```xml
-<dependency>
-  <groupId>ColorPalletteSelection</groupId>
-  <artifactId>colorpickerdialog</artifactId>
-  <version>1.0.1</version>
-  <type>pom</type>
-</dependency>
-```
-Gradle:
-------
-```xml
-compile 'ColorPalletteSelection:colorpickerdialog:1.0.1'
-```
+* 1. Opening Single Selection ColorPicker
 
->>> Opening Single Selection ColorPicker
-
+```java
 ColorPickerDialog dialog = ColorPickerDialog.newInstance(
                             ColorPickerDialog.SELECTION_SINGLE,
                             closestColorsList,
@@ -27,9 +14,11 @@ ColorPickerDialog dialog = ColorPickerDialog.newInstance(
                             ColorPickerDialog.SIZE_SMALL);
                 
 dialog.show(getFragmentManager(), "some_tag");   
-                
->>> Opening Multi Selection ColorPicker
+ ```
+ 
+* 2. Opening Multi Selection ColorPicker
 
+```java
 ColorPickerDialog dialog = ColorPickerDialog.newInstance(
                 ColorPickerDialog.SELECTION_MULTI,
                 closestColorsList,
@@ -37,10 +26,11 @@ ColorPickerDialog dialog = ColorPickerDialog.newInstance(
                 ColorPickerDialog.SIZE_SMALL);
 
 dialog.show(getFragmentManager(), "some_tag");
+```
 
+* Dialog OnClick Listener
 
->>> Dialog OnClick Listener
-
+```java
 dialog.setOnDialodButtonListener(new ColorPickerDialog.OnDialogButtonListener() {
             @Override
             public void onDonePressed(ArrayList<Integer> mSelectedColors) {
@@ -50,5 +40,25 @@ dialog.setOnDialodButtonListener(new ColorPickerDialog.OnDialogButtonListener() 
             public void onDismiss() {
             }
         });
-        
-        
+ ``` 
+ 
+ Import ColorPickerDialog dependency
+------------------------------------
+
+declare it into your pom.xml
+
+```xml
+<dependency>
+  <groupId>ColorPalletteSelection</groupId>
+  <artifactId>colorpickerdialog</artifactId>
+  <version>1.0.1</version>
+  <type>pom</type>
+</dependency>
+```
+or into your build.gradle
+
+```groovy
+dependencies {
+    compile 'ColorPalletteSelection:colorpickerdialog:1.0.1'
+}
+```
